@@ -1,0 +1,74 @@
+    img,h3,h5,p{
+      margin: 0;
+      color: white;
+      font-family: inter;
+    }
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(8, 8, 8, 0.925);
+    }
+    a{
+      text-decoration: none;
+      color: blue;
+    }
+    button{
+      display: block;
+      width: 240px;
+      margin-top: 12px; 
+      margin-left: 20px;  
+      padding: 10px;
+      border-radius: 6px;
+      border: none;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: hsl(0, 0%, 25%); 
+      cursor: pointer;
+    }
+
+    button:hover{
+      background-color: hsl(0, 0%, 30%); 
+    }
+    
+    background:active{
+      background-color: hsl(0, 0%, 60%); 
+    }
+
+    footer{
+      padding: 12px;
+      bottom: 0;
+      color: white;
+      text-align: center;
+      margin-top: 10px;
+    }
+    .card{
+      background-color: rgba(66, 65, 65, 0.438);
+      width: 280px;
+      min-height: 80vh;
+      text-align: center;
+      border-radius: 10px;
+    }
+
+    .profile-pic{
+      width: 90px;
+      object-fit: contain;
+      border-radius: 70px;
+      margin-top: 40px;
+      margin-bottom: 10px;
+
+    }
+    .name{
+      font-size: 22px;
+      margin-bottom: 5px;
+    }
+    .location{
+      color: hsl(75, 94%, 57%);
+      font-size: 12px;
+      margin-bottom: 15px;
+    }
+
+    .occupation{
+      font-size: 12px;
+      margin-bottom: 30px;
+    }
