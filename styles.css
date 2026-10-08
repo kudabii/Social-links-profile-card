@@ -1,4 +1,4 @@
-    img,h3,h5,p{
+    img,p{
       margin: 0;
       color: white;
       font-family: inter;
@@ -10,8 +10,14 @@
       background-color: rgba(8, 8, 8, 0.925);
     }
     a{
+      font-family: inter;
+      font-size: 10px;
       text-decoration: none;
       color: blue;
+    }
+    .attribution{
+      font-family: inter;
+      font-size: 10px;
     }
     button{
       display: block;
@@ -72,4 +78,8 @@
     .occupation{
       font-size: 12px;
       margin-bottom: 30px;
+    }
+
+    .instagram{
+      margin-bottom: 10px;
     }
